@@ -1,0 +1,28 @@
+.footer-container{
+    width: 100%;
+    min-height: 400px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer{
+    margin: 0 5rem;
+    padding-top: 5rem;
+}
+
+.f-link ul li {
+    padding: 7px 0;
+}
+
+.f-link ul li a{
+    padding: 0 3px;
+}
+
+.f-link h2{
+    padding: 0 0 10px 0;
+}
+
+.f-design{
+    text-align: center;
+    padding: 2rem 0;
+}

@@ -1,0 +1,87 @@
+.trip{ 
+    margin: 0 5rem;
+}
+
+.title{
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+.title p{
+    font-size: 15px;
+}
+
+.t1{
+    text-align: center;
+    padding: 20px;
+    margin: 30px 5px ;
+    position: relative;
+   
+    
+}
+
+.t1::before{
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-top: 2px solid #0006;
+    border-left: 2px solid #0006;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.t1::after{
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-bottom: 2px solid #0006;
+    border-right: 2px solid #0006;
+    bottom: 0;
+    right: 0;
+    transition: 0.5s;
+}
+
+.t1:hover::before{
+   
+    width: 99.50%;
+    height: 99.50%;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+   
+}
+
+.t1:hover::after{
+   
+    width: 99.50%;
+    height: 99.50%;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    
+}
+
+
+
+
+
+
+
+
+.t1 p{
+    padding-bottom: 30px;
+}
+
+.t1 a{
+    border: 2px solid #000;
+    padding: 10px 15px;
+    color: #000;
+    margin-top: 10rem;
+}
+
+.t1 a:hover{
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
